@@ -21,7 +21,9 @@ currentLine(katzDeliLine); // "The line is currently: 1. Kent, 2. Matz"
 // Function: takeANumber
 function takeANumber(katzDeliLine, name) {
   var position;
-  katzDeliLine.push(name);
+  var addAndGet = katzDeliLine.push(name);
+  console.log("addAndGet: => " + addAndGet);
+  return addAndGet + 1;
 
   return "Welcome, " + name + ". You are number 1 in line.";
 }
