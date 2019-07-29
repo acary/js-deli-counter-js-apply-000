@@ -51,8 +51,14 @@ function currentLine(katzDeliLine) {
 
 if (katzDeliLine.length > 0) {
   var myVal = katzDeliLine[0];
-  var myReturn = 'The line is currently: ' + for (i = 0; i < katzDeliLine.length; i++) { katzDeliLine[i] + '. ' + katzDeliLine[i];} + '.';
 
+  var myList = "";
+
+  for (var member in katzDeliLine) {
+    myList += katzDeliLine[member].indexOf() + '. ' + katzDeliLine[member];
+  }
+  
+  var myReturn = 'The line is currently: ' + myList + '.';
   return myReturn;
 } else {
   return 'The line is currently empty.';
