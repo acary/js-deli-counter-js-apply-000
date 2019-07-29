@@ -57,7 +57,7 @@ if (katzDeliLine.length > 0) {
   for (var member in katzDeliLine) {
     myList += katzDeliLine.indexOf(member) + '. ' + katzDeliLine[member];
   }
-  
+
   var myReturn = 'The line is currently: ' + myList + '.';
   return myReturn;
 } else {
