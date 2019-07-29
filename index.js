@@ -64,7 +64,7 @@ if (katzDeliLine.length > 0) {
     myList += index + 1 + '. ' + item;
 
     if (index+1) {
-      myList +=',';
+      myList +=', ';
     }
   });
 
