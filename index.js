@@ -55,7 +55,9 @@ if (katzDeliLine.length > 0) {
   var myList = "";
 
   for (var member in katzDeliLine) {
-    myList += katzDeliLine.indexOf(member, member+1) + '. ' + katzDeliLine[member];
+    var position = 1;
+    myList += position + '. ' + katzDeliLine[member];
+    position++;
   }
 
   var myReturn = 'The line is currently: ' + myList + '.';
