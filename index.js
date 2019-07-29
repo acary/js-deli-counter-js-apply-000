@@ -71,6 +71,8 @@ if (katzDeliLine.length > 0) {
     if (myLength > 1) {
       myList +=', ';
     }
+
+    myList = myList.slice(0,-1);
   });
 
   var myReturn = 'The line is currently: ' + myList;
