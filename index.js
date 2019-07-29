@@ -62,6 +62,10 @@ if (katzDeliLine.length > 0) {
 
   katzDeliLine.forEach(function(item, index) {
     myList += index + 1 + '. ' + item;
+
+    if (index+1) {
+      myList +=',';
+    }
   });
 
   var myReturn = 'The line is currently: ' + myList + '. ';
