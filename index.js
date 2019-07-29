@@ -56,7 +56,7 @@ if (katzDeliLine.length > 0) {
 
   for (var member in katzDeliLine) {
     var position = 1;
-    myList += position + '. ' + katzDeliLine[member];
+    myList += position + '. ' + katzDeliLine[member] + ' ';
     position++;
   }
 
