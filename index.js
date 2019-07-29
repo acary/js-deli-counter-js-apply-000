@@ -34,6 +34,8 @@ function nowServing(katzDeliLine) {
   // deli nowServing returns the line is empty when no on is on line:
   // Expected undefined to equal 'There is nobody waiting to be served!'
 
+  // katzDeliLine[0] 
+
   if (katzDeliLine.length > 0) {
     return 'Currently serving ' + katzDeliLine.pop(); + '.';
   } else {
