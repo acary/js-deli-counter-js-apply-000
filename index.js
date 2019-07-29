@@ -23,9 +23,8 @@ function takeANumber(katzDeliLine, name) {
   var position;
   var addAndGet = katzDeliLine.push(name);
   console.log("addAndGet: => " + addAndGet);
-  return addAndGet;
 
-  return "Welcome, " + name + ". You are number 1 in line.";
+  return "Welcome, " + name + ". You are number " + addAndGet + " in line.";
 }
 
 // Function: nowServing
