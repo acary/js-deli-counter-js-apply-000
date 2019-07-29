@@ -61,9 +61,14 @@ if (katzDeliLine.length > 0) {
   // }
 
   katzDeliLine.forEach(function(item, index) {
+
+    var myLength = katzDeliLine.length;
+    
     myList += index + 1 + '. ' + item;
 
-    if (index+1) {
+    myLength--;
+
+    if (myLength > 0) {
       myList +=', ';
     }
   });
