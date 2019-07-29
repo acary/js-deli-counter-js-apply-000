@@ -35,12 +35,10 @@ function nowServing(katzDeliLine) {
   // Expected undefined to equal 'There is nobody waiting to be served!'
 
   if (katzDeliLine.length > 0) {
-    return 'Currently serving ' + katzDeliLine[0] + '.'
+    return 'Currently serving ' + katzDeliLine.pop(); + '.';
   } else {
     return 'There is nobody waiting to be served!';
   }
-
-  katzDeliLine.pop();
 
 }
 
