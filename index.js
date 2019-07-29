@@ -68,7 +68,7 @@ if (katzDeliLine.length > 0) {
 
     myLength--;
 
-    if (myLength > 0) {
+    if (myLength > 1) {
       myList +=', ';
     }
   });
