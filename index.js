@@ -54,11 +54,15 @@ if (katzDeliLine.length > 0) {
 
   var myList = "";
 
-  for (var member in katzDeliLine) {
-    var position = 1;
-    myList += position + '. ' + katzDeliLine[member] + ' ';
-    position++;
-  }
+  // for (var member in katzDeliLine) {
+  //   var position = 1;
+  //   myList += position + '. ' + katzDeliLine[member] + ' ';
+  //   position++;
+  // }
+
+  katzDeliLine.forEach(function(item, index) {
+    myList += index + '. ' + katzDeliLine[member];
+  });
 
   var myReturn = 'The line is currently: ' + myList + '. ';
   return myReturn;
