@@ -19,8 +19,9 @@ nowServing(katzDeliLine); // "Currently serving Grace."
 currentLine(katzDeliLine); // "The line is currently: 1. Kent, 2. Matz"
 
 // Function: takeANumber
-function takeANumber() {
+function takeANumber(katzDeliLine, name) {
 
+  return "Welcome, " + name + ". You are number 1 in line.";
 }
 
 // Function: nowServing
