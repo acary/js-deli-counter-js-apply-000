@@ -60,7 +60,7 @@ if (katzDeliLine.length > 0) {
     position++;
   }
 
-  var myReturn = 'The line is currently: ' + myList + '.';
+  var myReturn = 'The line is currently: ' + myList + '. ';
   return myReturn;
 } else {
   return 'The line is currently empty.';
