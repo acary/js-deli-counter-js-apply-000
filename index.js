@@ -28,7 +28,16 @@ function takeANumber(katzDeliLine, name) {
 }
 
 // Function: nowServing
-function nowServing() {
+function nowServing(katzDeliLine) {
+
+  // deli nowServing returns the line is empty when no on is on line:
+  // Expected undefined to equal 'There is nobody waiting to be served!'
+
+  if (katzDeliLine.length < 1) {
+    
+  } else {
+    return 'There is nobody waiting to be served!';
+  }
 
 }
 
