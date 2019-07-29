@@ -17,3 +17,18 @@ currentLine(katzDeliLine); // "The line is currently: 1. Grace, 2. Kent, 3. Matz
 nowServing(katzDeliLine); // "Currently serving Grace."
 
 currentLine(katzDeliLine); // "The line is currently: 1. Kent, 2. Matz"
+
+// Function: takeANumber 
+function takeANumber() {
+  
+}
+
+// Function: nowServing
+function nowServing() {
+  
+}
+
+// Function: currentLine
+function currentLine() {
+  
+}
